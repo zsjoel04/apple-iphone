@@ -9,7 +9,12 @@ html{
 body{
   height:100%;
   display:flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color:#4A4A4A;
 }
 #nav-1{ 
   max-width:1024px;
@@ -17,6 +22,16 @@ body{
   max-height:44px;
   height:100%;
   margin:0 auto;
+  padding-bottom:20px;
+
+}
+#nav-2{
+  max-width:1024px;
+  width:100%;
+  max-height:88px;
+  height:100%;
+  margin:0 auto;
+  padding-bottom: 20px;
 }
 .nav-menu{
   display:flex;
@@ -33,4 +48,106 @@ body{
   text-decoration: none;
   color:#4A4A4A;
 }
+
+.iphone{
+  position: relative;
+  padding-top: 5px;
+  text-align: center;
+  list-style: none;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iphone img {
+  width: 38px;
+  height: 56px;
+  margin-bottom: 5px;
+}
+.preview{
+  font-size: 0.7rem;
+  color: #B64400;
+}
+.trade-link{
+  color:#0071E3;
+}
+.trade{
+  padding: 12px 0;
+}
+#welcome-section{
+  padding-top: 80px;
+  width: 100%;
+  max-height: 924px;
+  height: 100%;
+}
+.welcome{
+  margin:0 auto;
+  display:flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  max-width: 1680px;
+  width: 100%;
+  max-height:84px;
+  height:100%;
+}
+.welcome h1{
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  flex-grow: 1;
+}
+.welcome-header-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.welcome-header-text p{
+  font-size: 28px;
+  line-height: 1.1428571429;
+  font-weight: 600;
+  letter-spacing: .007em;
+  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin: 0;
+  align-self: flex-end;
+  padding-block: 8px;
+}
+.welcome-video{
+  max-width: 1680px;
+  width: 100%;
+  border-radius: 60px;
+  margin: 0 auto;
+  display: block;
+}
+
+.video-container {
+  position: relative;
+  max-width: 1680px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.video-stop-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+
 

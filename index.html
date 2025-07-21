@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
 </head>
 <body>
-    <nav id="nav-1">
+    <nav id="nav-1" aria-label="Global Navigation">
         <ul class="nav-menu">
-            <li class="nav-item"><a class="nav-link" href="https://www.apple.com/"><span class="nav-span"><i class="fa fa-apple"></i></span></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.apple.com/" aria-label="Apple Home"><span class="nav-span"><i class="fa fa-apple"></i></span></a></li>
             <li class="nav-item"><a class="nav-link" href="https://www.apple.com/store"><span class="nav-span">Store</span></a></li>
             <li class="nav-item"><a class="nav-link" href="https://www.apple.com/mac/"><span class="nav-span">Mac</span></a></li>
             <li class="nav-item"><a class="nav-link" href="https://www.apple.com/ipad/"><span class="nav-span">iPad</span></a></li>
@@ -19,14 +19,76 @@
             <li class="nav-item"><a class="nav-link" href="https://www.apple.com/watch/"><span class="nav-span">Watch</span></a></li>
             <li class="nav-item"><a class="nav-link" href="https://www.apple.com/apple-vision-pro/"><span class="nav-span">Vision</span></a></li>
             <li class="nav-item"><a class="nav-link" href="https://www.apple.com/airpods/"><span class="nav-span">AirPods</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.apple.com/tv-home/"><span class="nav-span">TV & Home</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.apple.com/tv-home/"><span class="nav-span">TV &amp; Home</span></a></li>
             <li class="nav-item"><a class="nav-link" href="https://www.apple.com/services/"><span class="nav-span">Entertainment</span></a></li>
             <li class="nav-item"><a class="nav-link" href="https://www.apple.com/shop/accessories/all"><span class="nav-span">Accessories</span></a></li>
             <li class="nav-item"><a class="nav-link" href="https://support.apple.com/?cid=gn-ols-home-hp-tab"><span class="nav-span">Support</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.apple.com/us/search"><span class="nav-span"><i class="fa fa-search"></i></span></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.apple.com/shop/bag"><span class="nav-span"><i class="fi fi-rr-shopping-bag"></i></span></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.apple.com/us/search" aria-label="Search apple.com"><span class="nav-span"><i class="fa fa-search"></i></span></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.apple.com/shop/bag" aria-label="Shopping Bag"><span class="nav-span"><i class="fi fi-rr-shopping-bag"></i></span></a></li>
         </ul>
     </nav>
-
+    <nav id="nav-2" aria-label="Product Navigation">
+        <ul class="nav-menu">
+            <li class="iphone">
+                <img src="pictures/16_pro.svg" alt="iPhone 16 Pro icon">
+                <a href="https://www.apple.com/iphone-16-pro/">iPhone 16 Pro</a>
+            </li>
+            <li class="iphone">
+                <img src="pictures/16_pro.svg" alt="iPhone 16 icon">
+                <a href="https://www.apple.com/iphone-16-pro/">iPhone 16</a>
+            </li>
+            <li class="iphone">
+                <img src="pictures/16.svg" alt="iPhone 16 e icon">
+                <a href="https://www.apple.com/hu/iphone-16e/">iPhone 16 e</a>
+            </li>
+            <li class="iphone">
+                <img src="pictures/16_pro.svg" alt="iPhone 16 e icon">
+                <a href="https://www.apple.com/hu/iphone-16e/">iPhone 15</a>
+            </li>
+            <li class="iphone">
+                <img src="pictures/compare.svg" alt="iPhone 16 e icon">
+                <a href="https://www.apple.com/hu/iphone-16e/">Compare</a>
+            </li>
+            <li class="iphone">
+                <img src="pictures/airpods.svg" alt="iPhone 16 e icon">
+                <a href="https://www.apple.com/hu/iphone-16e/">AirPods</a>
+            </li>
+            <li class="iphone">
+                <img src="pictures/airtag.svg" alt="iPhone 16 e icon">
+                <a href="https://www.apple.com/hu/iphone-16e/">AirTag</a>
+            </li>
+            <li class="iphone">
+                <img src="pictures/accessories.svg" alt="iPhone 16 e icon">
+                <a href="https://www.apple.com/hu/iphone-16e/">Accessories</a>
+            </li>
+            <li class="iphone">
+                <img src="pictures/apple_card.svg" alt="iPhone 16 e icon">
+                <a href="https://www.apple.com/hu/iphone-16e/">Apple Card</a>
+            </li>
+            <li class="iphone">
+                <img src="pictures/ios.svg" alt="iPhone 16 e icon">
+                <a href="https://www.apple.com/hu/iphone-16e/">
+                    iOS 26<br><p class="preview">Preview</p>
+                </a>
+            </li>
+            <li class="iphone">
+                <img src="pictures/shop_iphone.svg" alt="iPhone 16 e icon">
+                <a href="https://www.apple.com/hu/iphone-16e/">Shop iPhone</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="trade">Get $160-600 in credit toward iPhone 16 or iPhone 16 Pro when you trade in iPhone 12 or higher.* <a class="trade-link" href="https://www.apple.com/shop/buy-iphone">Shop iPhone</a></div>
+    <section id="welcome-section">
+        <header class="welcome">
+            <h1>iPhone</h1>
+            <div class="welcome-header-text">
+                <p>Designed to be loved.</p>
+            </div>
+        </header>
+        <div class="video-container">
+            <video class="welcome-video" width="1680" src="pictures/video.mp4" playsinline muted loop></video>
+            <button type="button" class="video-stop-btn" aria-label="Stop video"><i class="fa fa-stop"></i></button>
+        </div>
+    </section>
 </body>
 </html>
